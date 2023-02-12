@@ -8,6 +8,8 @@ jobs:
     steps: 
       - name: Checkout
         uses: actions/checkout@v1
+        with:
+          ref: 'main'
       - name: List all files
         run: |
           pwd
