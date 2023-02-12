@@ -9,7 +9,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
         with:
-          ref: 'main'
+          path: 'main'
       - name: List all files
         run: |
           pwd
